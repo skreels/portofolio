@@ -4,7 +4,8 @@
   "description": "Portfolio de Samuel Lefevre",
   "main": "index.js",
   "scripts": {
-    "start": "live-server public"
+    "start": "live-server public",
+    "build": "tsc"
   },
   "author": "Samuel Lefevre",
   "license": "MIT",
