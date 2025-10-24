@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header avec la liste des sections -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects-videos-wrapper">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section hero avec le texte centré -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Samuel LEFEVRE</h1>
+        <p>Étudiant développeur full-stack en troisième année de BUT Informatique</p>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- Section À propos -->
+    <section id="about">
+      <h2>À propos</h2>
+      <div class="about-photo">
+        <img src="sam.jpg" alt="Photo de Samuel">
+      </div>
+      <p>
+        Bienvenue sur mon portfolio.<br>
+        Je m'appelle Samuel Lefevre, j'ai 20 ans et je suis originaire de Montpellier.<br>
+        Après avoir obtenu un bac général mention assez bien, avec les spécialités Mathématiques et Physique-Chimie en 2022, j'ai
+         d'abord fait une année de Licence en mathématiques à la faculté des sciences de Montpellier, avec une option en Informatique. 
+         Je me suis rapidement intéressé à la programmation, et l'année suivante, je me suis réorienté. J'ai donc intégré l'IUT d'Arles
+          en septembre 2023 pour préparer un BUT Informatique, où j'ai pu approfondir mes connaissances en développement et découvrir
+           de nouveaux langages.<br><br>
+           Dans le cadre du BUT, j'ai participé à plusieurs projets seul et en équipe, ce qui m'a permis de mettre en pratique mes compétences.
+            Après l'obtention de mon BUT, j'envisage de préparer un diplôme d'ingénieur informatique en poursuivant mes études.<br><br>
+            Si vous souhaitez en savoir plus sur moi, n'hésitez pas à explorer ce site.<br>
+        Vous pouvez consulter mon CV en <a href="CV_Samuel_Lefevre.pdf" target="_blank">cliquant ici</a>.
+      </p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills">
+      <h2>Compétences</h2>
+      <div class="skills-container">
+        <!-- Catégorie Front-end -->
+        <div class="skills-category">
+          <h3>Front-end</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <img src="html.png" alt="Logo HTML">
+              <p>HTML</p>
+            </div>
+            <div class="skill-item">
+              <img src="css.png" alt="Logo CSS">
+              <p>CSS</p>
+            </div>
+            <div class="skill-item">
+              <img src="javascript.png" alt="Logo JavaScript">
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+              <img src="angular.png" alt="Logo Angular">
+              <p>Angular</p>
+            </div>
+            <div class="skill-item">
+              <img src="react.png" alt="Logo React.js">
+              <p>React.js</p>
+            </div>
+          </div>
+        </div>
+        <!-- Catégorie Back-end -->
+        <div class="skills-category">
+          <h3>Back-end</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <img src="c++.png" alt="Logo C++">
+              <p>C++</p>
+            </div>
+            <div class="skill-item">
+              <img src="java.png" alt="Logo Java">
+              <p>Java</p>
+            </div>
+            <div class="skill-item">
+              <img src="nodejs.png" alt="Logo Node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="skill-item">
+              <img src="sql.png" alt="Logo SQL">
+              <p>SQL</p>
+            </div>
+            <div class="skill-item">
+              <img src="php.png" alt="Logo PHP">
+              <p>PHP</p>
+            </div>
+            <div class="skill-item">
+              <img src="python.png" alt="Logo Python">
+              <p>Python</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wrapper pour la section Projets et la nouvelle section Vidéos -->
+    <div id="projects-videos-wrapper">
+      <!-- Section Projets (à gauche) -->
+      <section id="projects">
+        <h2>Projets</h2>
+        <div class="projects-container">
+          <article class="project-card">
+            <h3>GPS Crous - 2024</h3>
+            <p>
+              J'ai développé une petite application web qui permet de trouver le restaurant Crous le plus proche d'une adresse donnée.
+        L'objectif est de permettre aux étudiants de trouver sans difficulté leur restaurant Crous et de connaître leur adresse, leurs horaires d'ouverture,
+        et bien plus d'informations comme la vente sur place ou à emporter, la capacité du restaurant...
+        Ce projet m'a permis d'apprendre la gestion des API ainsi que l'affichage d'une carte.<br><br>
+        Pour réaliser ce projet, j'ai utilisé les langages HTML et SCSS pour la conception et la mise en forme, JavaScript pour gérer
+        l'utilisation de l'API Crous et l'affichage de la map.<br><br>
+        <strong>HTML, SCSS, JavaScript</strong>
+      </p>
+    </article>
+  
+    <article class="project-card">
+      <h3>Gestionnaire de recettes de cuisine - 2024</h3>
+      <p>
+        J'ai réalisé une application permettant d'enregistrer, de consulter et de modifier des recettes de cuisine. L'objectif est de permettre 
+        à l'utilisateur d'interagir avec un grand nombre de recettes dans une application sobre et facile à utiliser.
+        Ce projet m'a permis de renforcer mon niveau en java, d'apprendre à créer des interfaces utilisateurs et de stocker des données en temps réel.<br><br>
+        Pour réaliser ce projet, j'ai utilisé les langages Java et CSS pour la conception et la mise en forme, SQL pour sauvegarder les recettes
+        dans la base de données.<br><br>
+        <strong>Java, CSS, SQL</strong>
+      </p>
+    </article>
+  
+    <article class="project-card">
+      <h3>Jeu de Logique - 2024-2025</h3>
+      <p>
+        Ce jeu, développé de manière collaborative avec trois autres développeurs, met en avant la rapidité de réflexion et l'optimisation des chemins.
+        Les joueurs doivent déplacer des routes afin de reconstituer le schéma final avec un minimum de déplacements.
+        Ce projet m'a permis d'acquérir des compétences très importantes telles que le design, l'utilisation de librairie externe qui nécessité
+        un apprentissage de la documentation, une gestion optimale de la base de données, ainsi que le travail collaboratif.<br><br>
+        Pour réaliser ce projet, nous avons utilisé le langage C++ avec la bibliothèque Raylib, et SQL pour sauvegarder les niveaux dans la base de données.<br><br>
+        <strong>Gitlab, C++, Raylib, SQL</strong>
+      </p>
+    </article>
+  
+    <article class="project-card">
+      <h3>Memory Matching - 2025</h3>
+      <p>
+        J'ai développé un jeu de memory matching sur le thème des voitures, où l'objectif est de retrouver toutes les paires de cartes en les
+        retournant deux par deux avant la fin du compte à rebours. À mesure que le niveau augmente, le nombre de cartes augmente également.
+        Ce projet m'a permis d'apprendre à manipuler des objets en temps réel.<br><br>
+        Pour réaliser ce projet, j'ai utilisé JavaScript avec le framework React et CSS pour la conception et la mise en forme.<br><br>
+        <strong>JavaScript, React, CSS</strong>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section Vidéos de présentation (à droite) -->
+      <section id="project-videos">
+        <h2>Démos</h2>
+        <div class="videos-container">
+          <div class="video-card">
+            <video controls>
+              <source src="crous.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas la vidéo.
+            </video>
+          </div>
+          <div class="video-card">
+            <video controls>
+              <source src="recette.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas la vidéo.
+            </video>
+          </div>
+          <div class="video-card">
+            <video controls>
+              <source src="rerail.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas la vidéo.
+            </video>
+          </div>
+          <div class="video-card">
+            <video controls>
+              <source src="memory.mp4" type="video/mp4">
+              Votre navigateur ne supporte pas la vidéo.
+            </video>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Section Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Pour me joindre, envoyez un email à : <a href="mailto:samuellefevre34@gmail.com">samuellefevre34@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Site développé par Samuel Lefevre avec HTML, CSS, JavaScript, NodeJS.<br><br>
+      &copy; Samuel Lefevre 2025
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

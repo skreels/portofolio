@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-samuel",
+  "version": "1.0.0",
+  "description": "Portfolio de Samuel Lefevre",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public"
+  },
+  "author": "Samuel Lefevre",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
